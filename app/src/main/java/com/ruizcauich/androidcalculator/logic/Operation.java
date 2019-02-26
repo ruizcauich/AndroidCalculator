@@ -1,4 +1,5 @@
 package com.ruizcauich.androidcalculator.logic;
 
-public class Operation {
+public abstract class Operation {
+    public abstract double perform(double a, double b);
 }
